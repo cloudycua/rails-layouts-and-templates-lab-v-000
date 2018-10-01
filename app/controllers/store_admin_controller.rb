@@ -10,6 +10,7 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
+    redner :layout => false
   end
 
 end
